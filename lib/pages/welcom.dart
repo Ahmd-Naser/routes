@@ -10,7 +10,7 @@ class Welcome extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
-        title: Text("Welcome"),
+        title: Text("Welcome" , style: TextStyle(color: Colors.grey[100]),),
         centerTitle: true,
       ),
       body: Container(
